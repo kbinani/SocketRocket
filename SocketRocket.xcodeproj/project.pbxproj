@@ -188,6 +188,10 @@
 		9488536A2282AFAC0006E535 /* SRSecurityPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948853682282AFAC0006E535 /* SRSecurityPolicy.swift */; };
 		9488536B2282AFAC0006E535 /* SRSecurityPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948853682282AFAC0006E535 /* SRSecurityPolicy.swift */; };
 		9488536C2282AFAC0006E535 /* SRSecurityPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948853682282AFAC0006E535 /* SRSecurityPolicy.swift */; };
+		9488536E2282B0730006E535 /* SRRunLoopThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9488536D2282B0730006E535 /* SRRunLoopThread.swift */; };
+		9488536F2282B0730006E535 /* SRRunLoopThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9488536D2282B0730006E535 /* SRRunLoopThread.swift */; };
+		948853702282B0730006E535 /* SRRunLoopThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9488536D2282B0730006E535 /* SRRunLoopThread.swift */; };
+		948853712282B0730006E535 /* SRRunLoopThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9488536D2282B0730006E535 /* SRRunLoopThread.swift */; };
 		F5391CBE1D2F4B4700606A81 /* SRSIMDHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F5391CBC1D2F4B4700606A81 /* SRSIMDHelpers.h */; };
 		F5391CBF1D2F4B4700606A81 /* SRSIMDHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F5391CBC1D2F4B4700606A81 /* SRSIMDHelpers.h */; };
 		F5391CC01D2F4B4700606A81 /* SRSIMDHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F5391CBC1D2F4B4700606A81 /* SRSIMDHelpers.h */; };
@@ -328,6 +332,7 @@
 		81D6478D1D2CA78800690609 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E8A69A1D4C417A00916C7E /* TestChat-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "TestChat-iOS.xcconfig"; sourceTree = "<group>"; };
 		948853682282AFAC0006E535 /* SRSecurityPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRSecurityPolicy.swift; sourceTree = "<group>"; };
+		9488536D2282B0730006E535 /* SRRunLoopThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRRunLoopThread.swift; sourceTree = "<group>"; };
 		F5391CBC1D2F4B4700606A81 /* SRSIMDHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSIMDHelpers.h; sourceTree = "<group>"; };
 		F5391CBD1D2F4B4700606A81 /* SRSIMDHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSIMDHelpers.m; sourceTree = "<group>"; };
 		F61A0DC71625F44D00365EBD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "en.lproj/Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -551,6 +556,7 @@
 			children = (
 				81B31C5D1CDC444900D86D43 /* SRRunLoopThread.h */,
 				81B31C5E1CDC444900D86D43 /* SRRunLoopThread.m */,
+				9488536D2282B0730006E535 /* SRRunLoopThread.swift */,
 			);
 			name = RunLoop;
 			path = SocketRocket/Internal/RunLoop;
@@ -1048,6 +1054,7 @@
 				81B31C321CDC406B00D86D43 /* SRHash.m in Sources */,
 				9488536A2282AFAC0006E535 /* SRSecurityPolicy.swift in Sources */,
 				8179958B1CE139700084DA37 /* SRDelegateController.m in Sources */,
+				9488536F2282B0730006E535 /* SRRunLoopThread.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1075,6 +1082,7 @@
 				81B31C341CDC406B00D86D43 /* SRHash.m in Sources */,
 				9488536C2282AFAC0006E535 /* SRSecurityPolicy.swift in Sources */,
 				8179958D1CE139700084DA37 /* SRDelegateController.m in Sources */,
+				948853712282B0730006E535 /* SRRunLoopThread.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1102,6 +1110,7 @@
 				81D647701D2CA78800690609 /* SRHash.m in Sources */,
 				948853692282AFAC0006E535 /* SRSecurityPolicy.swift in Sources */,
 				81D647711D2CA78800690609 /* SRDelegateController.m in Sources */,
+				9488536E2282B0730006E535 /* SRRunLoopThread.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1140,6 +1149,7 @@
 				81B31C331CDC406B00D86D43 /* SRHash.m in Sources */,
 				9488536B2282AFAC0006E535 /* SRSecurityPolicy.swift in Sources */,
 				8179958C1CE139700084DA37 /* SRDelegateController.m in Sources */,
+				948853702282B0730006E535 /* SRRunLoopThread.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
