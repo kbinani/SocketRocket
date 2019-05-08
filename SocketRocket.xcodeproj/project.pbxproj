@@ -200,6 +200,14 @@
 		948853792282B3DA0006E535 /* SRLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948853772282B3DA0006E535 /* SRLog.swift */; };
 		9488537A2282B3DA0006E535 /* SRLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948853772282B3DA0006E535 /* SRLog.swift */; };
 		9488537B2282B3DA0006E535 /* SRLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948853772282B3DA0006E535 /* SRLog.swift */; };
+		9488537D2282FCBD0006E535 /* Compat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9488537C2282FCBD0006E535 /* Compat.swift */; };
+		9488537E2282FCBD0006E535 /* Compat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9488537C2282FCBD0006E535 /* Compat.swift */; };
+		9488537F2282FCBD0006E535 /* Compat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9488537C2282FCBD0006E535 /* Compat.swift */; };
+		948853802282FCBD0006E535 /* Compat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9488537C2282FCBD0006E535 /* Compat.swift */; };
+		948853822282FCD00006E535 /* Compat.m in Sources */ = {isa = PBXBuildFile; fileRef = 948853812282FCD00006E535 /* Compat.m */; };
+		948853832282FCD00006E535 /* Compat.m in Sources */ = {isa = PBXBuildFile; fileRef = 948853812282FCD00006E535 /* Compat.m */; };
+		948853842282FCD00006E535 /* Compat.m in Sources */ = {isa = PBXBuildFile; fileRef = 948853812282FCD00006E535 /* Compat.m */; };
+		948853852282FCD00006E535 /* Compat.m in Sources */ = {isa = PBXBuildFile; fileRef = 948853812282FCD00006E535 /* Compat.m */; };
 		F5391CBE1D2F4B4700606A81 /* SRSIMDHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F5391CBC1D2F4B4700606A81 /* SRSIMDHelpers.h */; };
 		F5391CBF1D2F4B4700606A81 /* SRSIMDHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F5391CBC1D2F4B4700606A81 /* SRSIMDHelpers.h */; };
 		F5391CC01D2F4B4700606A81 /* SRSIMDHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F5391CBC1D2F4B4700606A81 /* SRSIMDHelpers.h */; };
@@ -343,6 +351,8 @@
 		9488536D2282B0730006E535 /* SRRunLoopThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRRunLoopThread.swift; sourceTree = "<group>"; };
 		948853722282B3820006E535 /* SRPinningSecurityPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRPinningSecurityPolicy.swift; sourceTree = "<group>"; };
 		948853772282B3DA0006E535 /* SRLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRLog.swift; sourceTree = "<group>"; };
+		9488537C2282FCBD0006E535 /* Compat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compat.swift; sourceTree = "<group>"; };
+		948853812282FCD00006E535 /* Compat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Compat.m; sourceTree = "<group>"; };
 		F5391CBC1D2F4B4700606A81 /* SRSIMDHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSIMDHelpers.h; sourceTree = "<group>"; };
 		F5391CBD1D2F4B4700606A81 /* SRSIMDHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSIMDHelpers.m; sourceTree = "<group>"; };
 		F61A0DC71625F44D00365EBD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "en.lproj/Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -559,6 +569,8 @@
 				81B22EE31CE43ECC0073C636 /* SRURLUtilities.m */,
 				F5391CBC1D2F4B4700606A81 /* SRSIMDHelpers.h */,
 				F5391CBD1D2F4B4700606A81 /* SRSIMDHelpers.m */,
+				9488537C2282FCBD0006E535 /* Compat.swift */,
+				948853812282FCD00006E535 /* Compat.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -1057,6 +1069,8 @@
 				81CD06021CEEC65D00497F47 /* NSRunLoop+SRWebSocket.m in Sources */,
 				2D4227851BB43734000C1A6C /* SRWebSocket.m in Sources */,
 				81C22BFD1D1256E1007BFDDF /* SRRandom.m in Sources */,
+				948853832282FCD00006E535 /* Compat.m in Sources */,
+				9488537E2282FCBD0006E535 /* Compat.swift in Sources */,
 				948853792282B3DA0006E535 /* SRLog.swift in Sources */,
 				81B31C211CDC404100D86D43 /* SRIOConsumerPool.m in Sources */,
 				81B22EE91CE43ECC0073C636 /* SRURLUtilities.m in Sources */,
@@ -1087,6 +1101,8 @@
 				81CD06041CEEC65D00497F47 /* NSRunLoop+SRWebSocket.m in Sources */,
 				3345DC841C52ACD70083CCB8 /* SRWebSocket.m in Sources */,
 				81C22BFF1D1256E1007BFDDF /* SRRandom.m in Sources */,
+				948853852282FCD00006E535 /* Compat.m in Sources */,
+				948853802282FCBD0006E535 /* Compat.swift in Sources */,
 				9488537B2282B3DA0006E535 /* SRLog.swift in Sources */,
 				81B31C231CDC404100D86D43 /* SRIOConsumerPool.m in Sources */,
 				81B22EEB1CE43ECC0073C636 /* SRURLUtilities.m in Sources */,
@@ -1117,6 +1133,8 @@
 				81D647671D2CA78800690609 /* NSRunLoop+SRWebSocket.m in Sources */,
 				81D647681D2CA78800690609 /* SRWebSocket.m in Sources */,
 				81D647691D2CA78800690609 /* SRRandom.m in Sources */,
+				948853822282FCD00006E535 /* Compat.m in Sources */,
+				9488537D2282FCBD0006E535 /* Compat.swift in Sources */,
 				948853782282B3DA0006E535 /* SRLog.swift in Sources */,
 				81D6476A1D2CA78800690609 /* SRIOConsumerPool.m in Sources */,
 				81D6476B1D2CA78800690609 /* SRURLUtilities.m in Sources */,
@@ -1158,6 +1176,8 @@
 				81CD06031CEEC65D00497F47 /* NSRunLoop+SRWebSocket.m in Sources */,
 				F6396B86153E67EC00345B5E /* SRWebSocket.m in Sources */,
 				81C22BFE1D1256E1007BFDDF /* SRRandom.m in Sources */,
+				948853842282FCD00006E535 /* Compat.m in Sources */,
+				9488537F2282FCBD0006E535 /* Compat.swift in Sources */,
 				9488537A2282B3DA0006E535 /* SRLog.swift in Sources */,
 				81B31C221CDC404100D86D43 /* SRIOConsumerPool.m in Sources */,
 				81B22EEA1CE43ECC0073C636 /* SRURLUtilities.m in Sources */,
