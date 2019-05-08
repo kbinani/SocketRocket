@@ -13,6 +13,7 @@
 #import "NSRunLoop+SRWebSocketPrivate.h"
 
 #import "SRRunLoopThread.h"
+#import "SocketRocket-Swift.h"
 
 // Required for object file to always be linked.
 void import_NSRunLoop_SRWebSocket() { }

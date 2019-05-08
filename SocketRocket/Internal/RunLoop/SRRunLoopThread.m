@@ -11,7 +11,7 @@
 
 #import "SRRunLoopThread.h"
 
-@interface SRRunLoopThread ()
+@interface objc_SRRunLoopThread ()
 {
     dispatch_group_t _waitGroup;
 }
@@ -20,14 +20,14 @@
 
 @end
 
-@implementation SRRunLoopThread
+@implementation objc_SRRunLoopThread
 
 + (instancetype)sharedThread
 {
-    static SRRunLoopThread *thread;
+    static objc_SRRunLoopThread *thread;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        thread = [[SRRunLoopThread alloc] init];
+        thread = [[objc_SRRunLoopThread alloc] init];
         thread.name = @"com.facebook.SocketRocket.NetworkThread";
         [thread start];
     });

@@ -1,15 +1,15 @@
-@objc public class swift_SRRunLoopThread : Thread {
+@objc public class SRRunLoopThread : Thread {
     private let _waitGroup: DispatchGroup
     private var _runLoop: RunLoop? = nil
     
-    private static var _thread = { () -> swift_SRRunLoopThread in
-        let thread = swift_SRRunLoopThread()
+    private static var _thread = { () -> SRRunLoopThread in
+        let thread = SRRunLoopThread()
         thread.name = "com.facebook.SocketRocket.NetworkThread"
         thread.start()
         return thread
     }()
     
-    @objc public static var sharedThread : swift_SRRunLoopThread {
+    @objc public static var sharedThread : SRRunLoopThread {
         return _thread
     }
     
