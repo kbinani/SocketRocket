@@ -39,6 +39,7 @@
 #import "NSURLRequest+SRWebSocketPrivate.h"
 #import "NSRunLoop+SRWebSocketPrivate.h"
 #import "SRConstants.h"
+#import "SocketRocket-Swift.h"
 
 #if !__has_feature(objc_arc)
 #error SocketRocket must be compiled with ARC enabled

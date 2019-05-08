@@ -15,13 +15,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SRPinningSecurityPolicy ()
+@interface objc_SRPinningSecurityPolicy ()
 
 @property (nonatomic, copy, readonly) NSArray *pinnedCertificates;
 
 @end
 
-@implementation SRPinningSecurityPolicy
+@implementation objc_SRPinningSecurityPolicy
 
 - (instancetype)initWithCertificates:(NSArray *)pinnedCertificates
 {

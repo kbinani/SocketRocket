@@ -12,13 +12,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SRSecurityPolicy ()
+@interface objc_SRSecurityPolicy ()
 
 @property (nonatomic, assign, readonly) BOOL certificateChainValidationEnabled;
 
 @end
 
-@implementation SRSecurityPolicy
+@implementation objc_SRSecurityPolicy
 
 + (instancetype)defaultPolicy
 {

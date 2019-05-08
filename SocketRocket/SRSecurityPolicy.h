@@ -12,7 +12,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SRSecurityPolicy : NSObject
+@interface objc_SRSecurityPolicy : NSObject
 
 /**
  A default `SRSecurityPolicy` implementation specifies socket security and
