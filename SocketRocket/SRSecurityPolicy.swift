@@ -1,7 +1,8 @@
 @objc public class SRSecurityPolicy : NSObject {
     private let certificateChainValidationEnabled: Bool
     
-    @objc public static func `default`() -> SRSecurityPolicy {
+    @objc(defaultPolicy)
+    public static func `default`() -> SRSecurityPolicy {
         return SRSecurityPolicy()
     }
     
@@ -16,7 +17,7 @@
         super.init()
     }
     
-    private override init() {
+    @objc public override init() {
         self.certificateChainValidationEnabled = true
         super.init()
     }
