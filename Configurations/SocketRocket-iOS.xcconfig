@@ -7,8 +7,8 @@
 // of patent rights can be found in the PATENTS file in the same directory.
 //
 
-#include "Shared/Platform/iOS.xcconfig"
-#include "Shared/Product/StaticFramework.xcconfig"
+#include "Configurations/Shared/Platform/iOS.xcconfig"
+#include "Configurations/Shared/Product/StaticFramework.xcconfig"
 
 PRODUCT_NAME = SocketRocket
 PRODUCT_BUNDLE_IDENTIFIER = com.facebook.socketrocket.ios

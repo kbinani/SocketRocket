@@ -7,8 +7,8 @@
 // of patent rights can be found in the PATENTS file in the same directory.
 //
 
-#include "Shared/Platform/macOS.xcconfig"
-#include "Shared/Product/DynamicFramework.xcconfig"
+#include "Configurations/Shared/Platform/macOS.xcconfig"
+#include "Configurations/Shared/Product/DynamicFramework.xcconfig"
 
 PRODUCT_NAME = SocketRocket
 PRODUCT_BUNDLE_IDENTIFIER = com.facebook.socketrocket.macos

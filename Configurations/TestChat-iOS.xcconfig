@@ -7,8 +7,8 @@
 // of patent rights can be found in the PATENTS file in the same directory.
 //
 
-#include "Shared/Platform/iOS.xcconfig"
-#include "Shared/Product/Application.xcconfig"
+#include "Configurations/Shared/Platform/iOS.xcconfig"
+#include "Configurations/Shared/Product/Application.xcconfig"
 
 PRODUCT_NAME = TestChat
 PRODUCT_MODULE_NAME = TestChat
