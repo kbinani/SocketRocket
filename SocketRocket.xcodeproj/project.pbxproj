@@ -184,6 +184,10 @@
 		81DCD1241D2D9235002501A2 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C68D0D1D2CBFA800A1D005 /* libicucore.A.tbd */; };
 		81E8A6A21D4C41E000916C7E /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D6478D1D2CA78800690609 /* SocketRocket.framework */; };
 		81E8A6A31D4C41E000916C7E /* SocketRocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 81D6478D1D2CA78800690609 /* SocketRocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		948853692282AFAC0006E535 /* SRSecurityPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948853682282AFAC0006E535 /* SRSecurityPolicy.swift */; };
+		9488536A2282AFAC0006E535 /* SRSecurityPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948853682282AFAC0006E535 /* SRSecurityPolicy.swift */; };
+		9488536B2282AFAC0006E535 /* SRSecurityPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948853682282AFAC0006E535 /* SRSecurityPolicy.swift */; };
+		9488536C2282AFAC0006E535 /* SRSecurityPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948853682282AFAC0006E535 /* SRSecurityPolicy.swift */; };
 		F5391CBE1D2F4B4700606A81 /* SRSIMDHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F5391CBC1D2F4B4700606A81 /* SRSIMDHelpers.h */; };
 		F5391CBF1D2F4B4700606A81 /* SRSIMDHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F5391CBC1D2F4B4700606A81 /* SRSIMDHelpers.h */; };
 		F5391CC01D2F4B4700606A81 /* SRSIMDHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F5391CBC1D2F4B4700606A81 /* SRSIMDHelpers.h */; };
@@ -323,6 +327,7 @@
 		81D6475D1D2CA6A100690609 /* SocketRocketTests-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SocketRocketTests-iOS.xcconfig"; sourceTree = "<group>"; };
 		81D6478D1D2CA78800690609 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E8A69A1D4C417A00916C7E /* TestChat-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "TestChat-iOS.xcconfig"; sourceTree = "<group>"; };
+		948853682282AFAC0006E535 /* SRSecurityPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRSecurityPolicy.swift; sourceTree = "<group>"; };
 		F5391CBC1D2F4B4700606A81 /* SRSIMDHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSIMDHelpers.h; sourceTree = "<group>"; };
 		F5391CBD1D2F4B4700606A81 /* SRSIMDHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSIMDHelpers.m; sourceTree = "<group>"; };
 		F61A0DC71625F44D00365EBD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "en.lproj/Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -709,6 +714,7 @@
 				555E0EB11C51E56D00E6BB92 /* SocketRocket.h */,
 				454A02D41D0FAD010060DFB2 /* SRSecurityPolicy.h */,
 				454FEA831D25717C00073768 /* SRSecurityPolicy.m */,
+				948853682282AFAC0006E535 /* SRSecurityPolicy.swift */,
 				F6A12CCF145119B700C1D980 /* SRWebSocket.h */,
 				F6A12CD0145119B700C1D980 /* SRWebSocket.m */,
 				81CD05D51CEEC47300497F47 /* NSURLRequest+SRWebSocket.h */,
@@ -1025,6 +1031,7 @@
 				81B31C641CDC444900D86D43 /* SRRunLoopThread.m in Sources */,
 				81900A511D18C9CC0015A290 /* SRLog.m in Sources */,
 				81B31C321CDC406B00D86D43 /* SRHash.m in Sources */,
+				9488536A2282AFAC0006E535 /* SRSecurityPolicy.swift in Sources */,
 				8179958B1CE139700084DA37 /* SRDelegateController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1051,6 +1058,7 @@
 				81B31C661CDC444900D86D43 /* SRRunLoopThread.m in Sources */,
 				81900A531D18C9CC0015A290 /* SRLog.m in Sources */,
 				81B31C341CDC406B00D86D43 /* SRHash.m in Sources */,
+				9488536C2282AFAC0006E535 /* SRSecurityPolicy.swift in Sources */,
 				8179958D1CE139700084DA37 /* SRDelegateController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1077,6 +1085,7 @@
 				81D6476E1D2CA78800690609 /* SRRunLoopThread.m in Sources */,
 				81D6476F1D2CA78800690609 /* SRLog.m in Sources */,
 				81D647701D2CA78800690609 /* SRHash.m in Sources */,
+				948853692282AFAC0006E535 /* SRSecurityPolicy.swift in Sources */,
 				81D647711D2CA78800690609 /* SRDelegateController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1114,6 +1123,7 @@
 				81B31C651CDC444900D86D43 /* SRRunLoopThread.m in Sources */,
 				81900A521D18C9CC0015A290 /* SRLog.m in Sources */,
 				81B31C331CDC406B00D86D43 /* SRHash.m in Sources */,
+				9488536B2282AFAC0006E535 /* SRSecurityPolicy.swift in Sources */,
 				8179958C1CE139700084DA37 /* SRDelegateController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
