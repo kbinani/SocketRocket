@@ -48,7 +48,7 @@
 __attribute__((used)) static void importCategories()
 {
     import_NSURLRequest_SRWebSocket();
-    import_NSRunLoop_SRWebSocket();
+//    import_NSRunLoop_SRWebSocket();
 }
 
 typedef struct {

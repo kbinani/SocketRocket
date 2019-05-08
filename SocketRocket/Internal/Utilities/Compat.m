@@ -20,3 +20,8 @@ static void compat_SRSecurityPolicy() {
     SecTrustCreateWithCertificates(CFArrayCreate(NULL, NULL, 0, NULL), NULL, &trust);
     [policy evaluateServerTrust:trust forDomain:@""];
 }
+
+
+static void compat_NSRunLoop() {
+    NSRunLoop *runLoop = [NSRunLoop SR_networkRunLoop];
+}

@@ -1,6 +1,6 @@
 @objc public class SRRunLoopThread : Thread {
     private let _waitGroup: DispatchGroup
-    private var _runLoop: RunLoop? = nil
+    private var _runLoop: RunLoop!
     
     private static var _thread = { () -> SRRunLoopThread in
         let thread = SRRunLoopThread()
@@ -50,7 +50,7 @@
         }
     }
     
-    @objc public var runLoop : RunLoop? {
+    @objc public var runLoop : RunLoop {
         _ = _waitGroup.wait(timeout: DispatchTime.distantFuture)
         return _runLoop;
     }
